@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">myCV</string>
+    <string name="emailText_main">valentin.saric1@gmail.com</string>
+    <string name="descEmail">email icon</string>
+    <string name="descProfile">profile picture</string>
+    <string name="descMobile">mobile icon</string>
+    <string name="phoneNumber_main">+385919499418</string>
+    <string name="locationString">Osijek, Hrvatska</string>
+    <string name="gitString">https://github.com/VSharkO</string>
+    <string name="titleSkills">Skills:</string>
+    <string name="skillsTextJava"> - Java (Basic knowledge) </string>
+    <string name="skillsTextAndroid"> - Android (Basic knowledge) </string>
+    <string name="skillsTextCSharp"> - C# (Basic knowledge) </string>
+    <string name="skillsTextUnity"> - Unity (Basic knowledge) </string>
+    <string name="skillsTextCpp"> - C++ (Basic knowledge) </string>
+    <string name="languagesTitle">Languages:</string>
+    <string name="languagesText">English, Croatian, Bosnian</string>
+    <string name="nameText">Valentin Šarić</string>
+    <string name="developerText">Wannabe Android Developer</string>
+    <string name="educationTitle">Education:</string>
+    <string name="bachelorText">Bachelor of Electrical Engineering, FERIT Osijek</string>
+    <string name="currentEducation">Currently, first year of University Graduate Programme, FERIT OSijek</string>
+    <string name="experienceTitle">Experience:</string>
+    <string name="experienceText">I do not have any professional experience in programming but I was trying to learn Java and Android by myself until Android academy come to the game.
+        Thanks the Cobe and Software City Osijek, now I have the opportunity to learn from professionals and I hope the best.</string>
+    <string name="aboutMeTitle">About me:</string>
+    <string name="aboutMeText">
+        Currently I spend most of my time learning to program and doing college
+        assignments. In free time I\'m reading about new technologies and playing guitar.</string>
+</resources>

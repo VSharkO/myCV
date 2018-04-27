@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        style="@style/profilePicture_mainLeft"
+        android:id="@+id/imageView_main_profilePicture"
+        android:src="@drawable/profile_picture"
+        android:contentDescription="@string/descProfile"
+        />
+    <LinearLayout
+        android:id="@+id/linearLayout_mainLeft"
+        style="@style/linearLayout_mainLeft"
+        android:layout_below="@id/imageView_main_profilePicture"
+        >
+
+        <ImageView
+            style="@style/iconStyle_mainLeft"
+            android:src="@drawable/icon_email"
+            android:contentDescription="@string/descEmail"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/emailText_main"
+            />
+
+        <ImageView
+            style="@style/iconStyle_mainLeft"
+            android:src="@drawable/mobile_icon"
+            android:contentDescription="@string/descMobile"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/phoneNumber_main"
+            />
+
+        <ImageView
+            style="@style/iconStyle_mainLeft"
+            android:src="@drawable/location_icon"
+            android:contentDescription="@string/locationString"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/locationString"
+            />
+
+        <ImageView
+            style="@style/iconStyle_mainLeft"
+            android:src="@drawable/git_icon"
+            android:contentDescription="@string/gitString"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/gitString"
+            android:textSize="@dimen/textSize_main"
+            />
+        <TextView
+            style="@style/titleText_main"
+            android:text="@string/titleSkills"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/skillsTextJava"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/skillsTextAndroid"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/skillsTextCSharp"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/skillsTextUnity"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/skillsTextCpp"
+            />
+        <TextView
+            style="@style/titleText_main"
+            android:text="@string/languagesTitle"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/languagesText"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLeyout_mainTop"
+        style="@style/linearLayout_mainTop"
+        android:layout_toEndOf="@id/imageView_main_profilePicture"
+        >
+
+
+        <TextView
+            android:id="@+id/nameText_main"
+            style="@style/nameText_main"
+            android:text="@string/nameText" />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/developerText"
+            />
+        <TextView
+            style="@style/titleText_main"
+            android:text="@string/educationTitle"
+            android:layout_weight="1"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/bachelorText"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/currentEducation"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/linearLayout_mainRight"
+        android:layout_toEndOf="@id/imageView_main_profilePicture"
+        android:layout_below="@id/linearLeyout_mainTop"
+        android:orientation="vertical">
+        <TextView
+            style="@style/titleText_main"
+            android:layout_marginTop="@dimen/pictureMargin_main"
+            android:text="@string/experienceTitle"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/experienceText"
+            />
+        <TextView
+            style="@style/titleText_main"
+            android:text="@string/aboutMeTitle"
+            android:layout_marginTop="@dimen/pictureMargin_main"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:text="@string/aboutMeText"
+            />
+
+    </LinearLayout>
+
+
+    
+
+</RelativeLayout>

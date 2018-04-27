@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize_main">10sp</dimen>
+    <dimen name="pictureDimen_main">150dp</dimen>
+    <dimen name="pictureMargin_main">10dp</dimen>
+    <dimen name="linearLayoutMargin_main">10dp</dimen>
+    <dimen name="iconMargin">4dp</dimen>
+    <dimen name="iconDimen_main">25dp</dimen>
+    <dimen name="mainframe_main">130dp</dimen>
+    <dimen name="titleSize">15sp</dimen>
+    <dimen name="linearLayout_mainLeft">150dp</dimen>
+    <dimen name="nameSize">25sp</dimen>
+</resources>
