@@ -94,7 +94,6 @@
         android:layout_toEndOf="@id/imageView_main_profilePicture"
         >
 
-
         <TextView
             android:id="@+id/nameText_main"
             style="@style/nameText_main"
@@ -116,8 +115,8 @@
             style="@style/textView_mainLeft"
             android:text="@string/currentEducation"
             />
-    </LinearLayout>
 
+    </LinearLayout>
 
     <LinearLayout
         style="@style/linearLayout_mainRight"
@@ -144,8 +143,5 @@
             />
 
     </LinearLayout>
-
-
-    
 
 </RelativeLayout>
