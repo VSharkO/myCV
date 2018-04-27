@@ -9,7 +9,7 @@
     <string name="gitString">https://github.com/VSharkO</string>
     <string name="titleSkills">Skills:</string>
     <string name="skillsTextJava"> - Java (Basic knowledge) </string>
-    <string name="skillsTextAndroid"> - Android (Basic knowledge) </string>
+    <string name="skillsTextAndroid"> - Android (Beginner) </string>
     <string name="skillsTextCSharp"> - C# (Basic knowledge) </string>
     <string name="skillsTextUnity"> - Unity (Basic knowledge) </string>
     <string name="skillsTextCpp"> - C++ (Basic knowledge) </string>
@@ -19,10 +19,10 @@
     <string name="developerText">Wannabe Android Developer</string>
     <string name="educationTitle">Education:</string>
     <string name="bachelorText">Bachelor of Electrical Engineering, FERIT Osijek</string>
-    <string name="currentEducation">Currently, first year of University Graduate Programme, FERIT OSijek</string>
+    <string name="currentEducation">Currently, first year of University Graduate Programme, FERIT Osijek</string>
     <string name="experienceTitle">Experience:</string>
     <string name="experienceText">I do not have any professional experience in programming but I was trying to learn Java and Android by myself until Android academy come to the game.
-        Thanks the Cobe and Software City Osijek, now I have the opportunity to learn from professionals and I hope the best.</string>
+        Thanks to Cobe and Software City Osijek, now I have the opportunity to learn from professionals and I hope the best.</string>
     <string name="aboutMeTitle">About me:</string>
     <string name="aboutMeText">
         Currently I spend most of my time learning to program and doing college

@@ -4,115 +4,165 @@
 
     <ImageView
         style="@style/profilePicture_mainLeft"
+        android:layout_width="@dimen/pictureDimen_main"
+        android:layout_height="@dimen/pictureDimen_main"
         android:id="@+id/imageView_main_profilePicture"
         android:src="@drawable/profile_picture"
         android:contentDescription="@string/descProfile"
         />
     <LinearLayout
+        android:layout_width="@dimen/linearLayout_mainLeft"
+        android:layout_height="wrap_content"
         android:id="@+id/linearLayout_mainLeft"
-        style="@style/linearLayout_mainLeft"
+        android:layout_marginEnd="@dimen/pictureMargin_main"
+        android:orientation="vertical"
         android:layout_below="@id/imageView_main_profilePicture"
         >
 
         <ImageView
-            style="@style/iconStyle_mainLeft"
+            android:layout_height="@dimen/iconDimen_main"
+            android:layout_width="@dimen/iconDimen_main"
             android:src="@drawable/icon_email"
             android:contentDescription="@string/descEmail"
+            android:layout_weight="1"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
             />
+
         <TextView
             style="@style/textView_mainLeft"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/emailText_main"
             />
 
         <ImageView
-            style="@style/iconStyle_mainLeft"
+            android:layout_height="@dimen/iconDimen_main"
+            android:layout_width="@dimen/iconDimen_main"
             android:src="@drawable/mobile_icon"
             android:contentDescription="@string/descMobile"
+            android:layout_weight="1"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
             />
         <TextView
             style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/phoneNumber_main"
             />
 
         <ImageView
-            style="@style/iconStyle_mainLeft"
+            android:layout_height="@dimen/iconDimen_main"
+            android:layout_width="@dimen/iconDimen_main"
             android:src="@drawable/location_icon"
             android:contentDescription="@string/locationString"
+            android:layout_weight="1"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
             />
+
         <TextView
             style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/locationString"
             />
 
         <ImageView
-            style="@style/iconStyle_mainLeft"
+            android:layout_height="@dimen/iconDimen_main"
+            android:layout_width="@dimen/iconDimen_main"
             android:src="@drawable/git_icon"
             android:contentDescription="@string/gitString"
+            android:layout_weight="1"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
             />
+
         <TextView
             style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
             android:text="@string/gitString"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:textSize="@dimen/textSize_main"
             />
-        <TextView
-            style="@style/titleText_main"
-            android:text="@string/titleSkills"
-            />
-        <TextView
-            style="@style/textView_mainLeft"
-            android:text="@string/skillsTextJava"
-            />
-        <TextView
-            style="@style/textView_mainLeft"
-            android:text="@string/skillsTextAndroid"
-            />
-        <TextView
-            style="@style/textView_mainLeft"
-            android:text="@string/skillsTextCSharp"
-            />
-        <TextView
-            style="@style/textView_mainLeft"
-            android:text="@string/skillsTextUnity"
-            />
-        <TextView
-            style="@style/textView_mainLeft"
-            android:text="@string/skillsTextCpp"
-            />
-        <TextView
-            style="@style/titleText_main"
-            android:text="@string/languagesTitle"
-            />
-        <TextView
-            style="@style/textView_mainLeft"
-            android:text="@string/languagesText"
-            />
+
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLeyout_mainTop"
+        android:id="@+id/linearLayout_mainTop"
         style="@style/linearLayout_mainTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pictureDimen_main"
+        android:orientation="vertical"
         android:layout_toEndOf="@id/imageView_main_profilePicture"
         >
 
         <TextView
             android:id="@+id/nameText_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/iconMargin"
             style="@style/nameText_main"
-            android:text="@string/nameText" />
+            android:text="@string/nameText"
+            />
+
         <TextView
             style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/developerText"
             />
+
         <TextView
             style="@style/titleText_main"
-            android:text="@string/educationTitle"
             android:layout_weight="1"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/pictureMargin_main"
+            android:text="@string/educationTitle"
             />
+
         <TextView
             style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
             android:text="@string/bachelorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             />
+
         <TextView
             style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/currentEducation"
             />
 
@@ -120,26 +170,131 @@
 
     <LinearLayout
         style="@style/linearLayout_mainRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_toEndOf="@id/imageView_main_profilePicture"
-        android:layout_below="@id/linearLeyout_mainTop"
+        android:layout_below="@id/linearLayout_mainTop"
         android:orientation="vertical">
         <TextView
             style="@style/titleText_main"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/pictureMargin_main"
             android:text="@string/experienceTitle"
             />
+
         <TextView
             style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/experienceText"
             />
+
         <TextView
             style="@style/titleText_main"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/aboutMeTitle"
             android:layout_marginTop="@dimen/pictureMargin_main"
             />
+
         <TextView
             style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/aboutMeText"
+            />
+
+        <TextView
+            style="@style/titleText_main"
+            android:layout_marginTop="@dimen/pictureMargin_main"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titleSkills"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skillsTextJava"
+            />
+
+        <TextView
+            style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skillsTextAndroid"
+            />
+        <TextView
+            style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skillsTextCSharp"
+            />
+
+        <TextView
+            style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skillsTextUnity"
+            />
+
+        <TextView
+            style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skillsTextCpp"
+            />
+        <TextView
+            style="@style/titleText_main"
+            android:layout_marginTop="@dimen/pictureMargin_main"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/languagesTitle"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            style="@style/textView_mainLeft"
+            android:layout_marginTop="@dimen/iconMargin"
+            android:layout_marginStart="@dimen/pictureMargin_main"
+            android:layout_marginEnd="@dimen/pictureMargin_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/languagesText"
             />
 
     </LinearLayout>

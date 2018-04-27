@@ -8,75 +8,37 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="iconStyle_mainLeft">
-        <item name="android:layout_width">@dimen/iconDimen_main</item>
-        <item name="android:layout_height">@dimen/iconDimen_main</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:layout_gravity">start</item>
-        <item name="android:layout_marginStart">@dimen/pictureMargin_main</item>
-        <item name="android:layout_marginTop">@dimen/iconMargin</item>
-    </style>
 
     <style name="textView_mainLeft">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:layout_marginTop">@dimen/iconMargin</item>
-        <item name="android:layout_marginStart">@dimen/pictureMargin_main</item>
-        <item name="android:layout_marginEnd">@dimen/pictureMargin_main</item>
         <item name="android:textSize">@dimen/textSize_main</item>
     </style>
 
+
     <style name="profilePicture_mainLeft">
-        <item name="android:layout_height">@dimen/pictureDimen_main</item>
-        <item name="android:layout_width">@dimen/pictureDimen_main</item>
         <item name="android:padding">@dimen/iconMargin</item>
-
-
     </style>
 
+
     <style name="titleText_main">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/titleSize</item>
-        <item name="android:layout_marginTop">@dimen/iconMargin</item>
-        <item name="android:layout_marginStart">@dimen/pictureMargin_main</item>
-        <item name="android:layout_marginEnd">@dimen/pictureMargin_main</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="linearLayout_mainLeft">
-        <item name="android:layout_width">@dimen/linearLayout_mainLeft</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_marginEnd">@dimen/pictureMargin_main</item>
-        <item name="android:orientation">vertical</item>
-
-
-    </style>
 
     <style name="linearLayout_mainRight">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@color/rightBcgColor</item>
         <item name="android:padding">@dimen/iconMargin</item>
     </style>
 
-    <style name="nameText_main">
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_marginStart">@dimen/pictureMargin_main</item>
-        <item name="android:layout_marginEnd">@dimen/iconMargin</item>
-        <item name="android:textSize">@dimen/nameSize</item>
 
+    <style name="nameText_main">
+        <item name="android:textSize">@dimen/nameSize</item>
     </style>
 
-    <style name="linearLayout_mainTop">
 
+    <style name="linearLayout_mainTop">
         <item name="android:padding">@dimen/iconMargin</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:orientation">vertical</item>
-        <item name="android:layout_height">@dimen/pictureDimen_main</item>
-        <item name="android:background">@color/bckgColorTop</item>
+        <item name="android:background">@color/bcgColorTop</item>
     </style>
 
 </resources>
